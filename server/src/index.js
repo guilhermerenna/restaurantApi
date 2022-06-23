@@ -5,9 +5,9 @@ const app = express();
 const PORT = 3030;
 
 app.get("/", (req, res) => {
-    res.json({message: `howdy ho, bitches! I'm running on port ${PORT}`});
+    res.json({message: `Hello! I'm running on port ${PORT}`});
 })
 
 app.listen(PORT, () => {
-    console.log(`Howdy ho!`);
+    console.log(`Hello console!`);
 })
