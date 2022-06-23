@@ -1,0 +1,7 @@
+.menu-candidates {
+    text-align: left;
+    color: var(--text-color);
+    background-color: var(--primary-color-clear);
+    height: calc(50vh - 40px);
+    padding: 10px;
+}

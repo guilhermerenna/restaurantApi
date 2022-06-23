@@ -1,0 +1,34 @@
+.menu-resto {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-resto-name {
+    padding: 10px;
+}
+
+.menu-resto-rate {
+    padding: 10px;
+}
+
+.star
+{
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.star-under {
+    color: #ddd;
+    vertical-align: top;
+}
+
+.star-over {
+color: #f80;
+position: absolute;
+left: 0;
+top: 0;
+width: 70%;
+overflow: hidden;
+}
