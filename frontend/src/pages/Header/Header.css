@@ -1,0 +1,12 @@
+.pageHeader {
+    text-align: center;
+    color: var(--secondary-color);
+    width: 100vh;
+    height: 80px;
+    background-color: var(--primary-color-clear);
+}
+
+.content {
+    box-shadow: 0 4px 2px -2px rgb(0 0 0 / 5%);
+    
+}
