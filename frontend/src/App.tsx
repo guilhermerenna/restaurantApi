@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
 import './App.css';
-
-import Home from './pages/Home/Home';
+import Content from './pages/Content/Content';
+import Title from './pages/Title/Title';
 
 function App() {
-  return(
-    <Home />
-  );  
+  return (
+    <body id="page-home">
+        <Title />
+        <Content />
+    </body>
+  )
 }
 
 export default App;

@@ -18,17 +18,3 @@ const Candidate: React.FC<HeaderProps> = (props) => {
 }
 
 export default Candidate;
-
-/*
-const Header: React.FC<HeaderProps> = (props) => {
-    let pageTitle = "RESTaurantAPI"
-    if(props.title != undefined) pageTitle = props.title;
-    return (
-        <header>
-            <h1 className="pageHeader content">{pageTitle}</h1>
-        </header>
-    );
-}
-
-export default Header;
-*/

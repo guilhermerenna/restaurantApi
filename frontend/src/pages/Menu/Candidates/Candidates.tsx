@@ -1,4 +1,3 @@
-import React from "react";
 import './Candidates.css'
 
 import Candidate from './Candidate/Candidate'

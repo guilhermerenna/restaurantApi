@@ -1,12 +1,12 @@
 .pageHeader {
-    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+    width: 100%;
     color: var(--secondary-color);
-    width: 100vh;
     height: 80px;
     background-color: var(--primary-color-clear);
 }
 
-.content {
+.boxed {
     box-shadow: 0 4px 2px -2px rgb(0 0 0 / 5%);
-    
 }
