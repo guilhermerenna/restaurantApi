@@ -1,0 +1,20 @@
+.menu-candidate {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-candidate-name {
+    padding: 10px;
+}
+
+.menu-candidate-efficiency {
+    padding: 10px;
+}
+
+.menu-candidate-wallet {
+    padding: 10px;
+}
+
+.menu-table-header {
+    font-weight: bold;
+}
