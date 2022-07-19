@@ -1,7 +1,5 @@
-import React from "react";
 import './Restaurants.css'
 import Restaurant from "./Restaurant/Restaurant"
-import {} from 'react-icons/fi'
 
 const Restaurants = () => {
     return (

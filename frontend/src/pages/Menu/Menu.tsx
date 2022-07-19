@@ -1,4 +1,3 @@
-import React from "react";
 import Restaurants from "./Restaurants/Restaurants";
 import Candidates from "./Candidates/Candidates";
 import './Menu.css'

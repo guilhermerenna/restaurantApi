@@ -1,17 +1,13 @@
-import React, { useState } from 'react';
-import Menu from '../Menu/Menu'
-import Page from '../Content/Page/Page'
-
 import './Content.css'
+import Sidebar from './Sidebar/Sidebar';
+import Page from './Page/Page';
 
 const Content = () => {
     return (
-        <body>
-            <div className="content">
-                <Menu />
-                <Page />
-            </div>
-        </body>
+        <div className="content">
+            <Sidebar />
+            <Page />
+        </div>
     )
 }
 

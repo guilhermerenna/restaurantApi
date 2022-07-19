@@ -1,14 +1,20 @@
-import React, { useState } from 'react';
-import './Page.css'
+import Restaurant from './Restaurant';
 
 const Page = () => {
-    return (
-        <body>
+    let restoNumber = 2;
+
+    if(restoNumber == 0) {
+        return (
             <div className="page">
-                <p>Blabla</p>
+                <p>Select a Restaurant to see its details.</p>
             </div>
-        </body>
-    )
+        )
+    }
+    else {
+        return (
+            <Restaurant id={restoNumber} />
+        );
+    }
 }
 
 export default Page;
