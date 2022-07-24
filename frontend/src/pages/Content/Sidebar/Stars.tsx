@@ -11,11 +11,11 @@ const Stars: React.FC<StarsProps> = (props) => {
     let grayStars = '';
     for(let i = 0; i< yellowStarsInt; i ++) {
         yellowStars = yellowStars.concat('★');
-        console.log('Printing yellow, iteration '+(i+1));
+        // console.log('Printing yellow, iteration '+(i+1));
     }
     for(let i = 0; i< 5-yellowStarsInt; i ++) {
         grayStars = grayStars.concat('★');
-        console.log('Printing gray, iteration '+(i+1+yellowStarsInt));
+        // console.log('Printing gray, iteration '+(i+1+yellowStarsInt));
     }
 
     return (

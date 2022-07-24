@@ -4,7 +4,7 @@ interface CandidateProps {
     id: number;
     name: string;
     efficiency: number;
-    wallet: number;
+    basePay: number;
 }
 
 const Candidate: React.FC<CandidateProps> = (props) => {
@@ -13,7 +13,7 @@ const Candidate: React.FC<CandidateProps> = (props) => {
             <td className='candidate-id'>{props.id}: &nbsp;</td>
             <td className='candidate-name'>{props.name}&nbsp;</td>
             <td className='candidate-efficiency'>{props.efficiency}%&nbsp;&nbsp;&nbsp;</td>
-            <td className='candidate-wallet'>${props.wallet}</td>
+            <td className='candidate-wallet'>${props.basePay}</td>
         </tr>
     );
 }
